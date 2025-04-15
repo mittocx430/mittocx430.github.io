@@ -1,0 +1,32 @@
+.header
+{
+    grid-area: header;
+    background-color: rgb(2, 1, 71);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo
+{
+    width: 128px;
+    margin-bottom: 15px;
+}
+
+.menu-icons
+{
+    transition: 0.3s;
+    width: 20px;
+}
+
+.menu-icons:hover
+{
+    transition: 0.3s;
+    width: 28px;
+}
+
+.menu a
+{
+    text-decoration: none;
+    margin: 5px;
+}
